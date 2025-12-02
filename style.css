@@ -351,3 +351,70 @@ main #secao6 {
 #secao6 #colunas article .vid{
     width: 100%;
 }
+
+
+#secao7{
+    margin-top: 40px;
+    background-color: white;
+    padding: 50px;  
+    display: flex;
+  
+}
+
+#secao7 #direita{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+#direita #maior{
+    position: relative;
+}
+
+#direita #maior #sobreposta{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    margin: 0px;
+}
+
+
+#direita #menor img{
+    margin: 4px;
+}
+
+ #direita #menor{
+    justify-content: space-between;       
+ }
+
+#secao7 #esquerda{
+    width: 50%;
+    justify-content : flex-start;
+    
+}
+
+#esquerda h4{
+    border: 1px solid;
+    border-style: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    text-align: center; 
+    width: 35%;
+    padding: 3px;
+    font-size: 13px;    
+}
+
+#esquerda .destaque{
+    font-weight: bold;
+}
+
+#esquerda p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #112352;
+    font-size: 30px;
+    width: 80%;
+    padding-top: 20px;
+}
