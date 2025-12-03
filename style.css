@@ -280,7 +280,9 @@ nav {
 
 main #secao6 {
     padding-top: 40px;
-    background: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);
+    /*background: radial-gradient(circle at 0% 0%, #A139C4 0%, 10.2%, rgba(161, 57, 196, 0) 34%), radial-gradient(circle at 99.58333333333333% 100%, #EB5259 0%, 12.9%, rgba(235, 82, 89, 0) 43%), radial-gradient(circle at 14.583333333333334% 46.666666666666664%, #2B1136 0%, 60%, rgba(43, 17, 54, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #3C1055 0%, 100%, rgba(60, 16, 85, 0) 100%);*/
+    background-image: url(imagens/bg3.png);
+    background-size: cover;
 }
 
 #secao6 h3{
@@ -358,13 +360,15 @@ main #secao6 {
     background-color: white;
     padding: 50px;  
     display: flex;
+    gap: 30px;
   
 }
 
 #secao7 #direita{
     display: flex;
     width: 50%;
-    flex-direction: column;
+    flex-direction: column;  
+    margin-right: 150px;  
 }
 
 #direita #maior{
@@ -388,22 +392,25 @@ main #secao6 {
  }
 
 #secao7 #esquerda{
+    flex-wrap: wrap;  
+    display: flex;
     width: 50%;
-    justify-content : flex-start;
-    
+    text-align: right;  
 }
 
-#esquerda h4{
-    border: 1px solid;
-    border-style: none;
-    border-radius: 15px;
-    background-color: red;
-    color: white;
-    font-style: italic;
-    text-align: center; 
-    width: 35%;
-    padding: 3px;
-    font-size: 13px;    
+#esquerda h3{
+    padding-top: 25px;
+    color: #E34449;
+    font-size: 27px;  
+    margin-left: auto;  
+}
+
+#esquerda h2{
+    color: #112352;
+    font-size: 80px;  
+    font-weight: bold;
+    padding-left: 100px;
+    line-height: 70px;
 }
 
 #esquerda .destaque{
@@ -411,10 +418,16 @@ main #secao6 {
 }
 
 #esquerda p{
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     color: #112352;
-    font-size: 30px;
-    width: 80%;
-    padding-top: 20px;
+    font-size: 15px;
+    line-height: 1.8;   
+    margin-left: auto;     
+}
+
+#esquerda img{
+    margin-left: auto;    
+    padding-bottom: 5px; 
+    width: 300px;
+    height: 76px;
 }
