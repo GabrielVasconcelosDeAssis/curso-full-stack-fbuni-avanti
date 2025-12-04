@@ -503,22 +503,26 @@ footer #coluna2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.4;
     text-align: left;
     gap: 50px;
+    flex: 0 0 320px;    
 }
 
 
 #coluna3_1 p{
-  padding: 10px 0;
+  
   margin: 0;
   white-space: nowrap;  
+  line-height: 1.3;
+  padding-top: 25px;
+  margin-right: 175px;
 }
 
 #coluna3_1 a,
 #coluna3_2 a {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: underline;
     
@@ -526,6 +530,20 @@ footer #coluna2 {
 
 #coluna3_2 {
     margin-top: 20px;
+    font-size: 15px;
 }
 
 
+#coluna1 {
+  flex: 0 0 200px; 
+
+}
+
+#coluna2 {
+  margin-left: 40px;  
+  flex: 1; 
+}
+
+#coluna3 {
+  flex: 0 0 320px; 
+}
