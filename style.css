@@ -366,7 +366,7 @@ main #secao6 {
 
 #secao7 #direita{
     display: flex;
-    width: 50%;
+    width: 45%;
     flex-direction: column;  
     margin-right: 150px;  
 }
@@ -394,7 +394,7 @@ main #secao6 {
 #secao7 #esquerda{
     flex-wrap: wrap;  
     display: flex;
-    width: 50%;
+    width: 55%;
     text-align: right;  
 }
 
@@ -547,3 +547,4 @@ footer #coluna2 {
 #coluna3 {
   flex: 0 0 320px; 
 }
+/*_________________________FOOTER_____________________________*/
