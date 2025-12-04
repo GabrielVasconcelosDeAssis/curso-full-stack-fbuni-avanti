@@ -434,87 +434,46 @@ main #secao6 {
 /*_________________________MAIN_______________________________*/
 
 /*_________________________FOOTER_____________________________*/
-/*footer{
-    background-color: black;
-    color: white; 
-    display: flex;   
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding-bottom: 170px;
-}
 
-#logo_footer{
-    padding-top: 60px;
-    width: 250px;
-    height: 125px;
-    padding-left: 23px;
-}
-
-footer #coluna2{
-    padding-right: 100px;
-    
-}
-
-
-#inicio{
-    padding-top: 50px;
-    margin-bottom: 110px;
-}
-
-#inicio a{
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: bold;
-    color: white;
-    padding-left: 19px;
-        
-}
-
-
-
-#lista_footer {
-    list-style: none;
-    display: flex;
-    gap: 8px;
-}*/
 footer {
     background-color: black;
     color: white; 
     display: flex;   
-    flex-flow: row nowrap; /* mantém em linha */
-    justify-content: space-between; /* distribui espaço */
-    padding: 40px 60px; /* ajuste de espaçamento */
+    flex-flow: row nowrap; 
+    justify-content: space-between; 
+    padding: 20px 60px; 
 }
 
 footer article {
-    flex: 1; /* cada coluna ocupa espaço proporcional */
-    padding: 0 20px; /* espaçamento interno */
+    flex: 1; 
+    padding: 0 20px; 
 }
 
-/* coluna 1 */
 #logo_footer {
     width: 250px;
-    height: auto; /* deixa a altura proporcional */
+    height: auto; 
     margin-top: 20px;
     margin-left: 85px;
 }
 
 footer #coluna2 {
-    margin-right: 400px; /* aproxima da primeira */
+    margin-right: 395px; 
 }
 
 
-/* coluna 2 */
+
 #inicio {
     padding-top: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    padding-left: 22px;
     }
 
 #inicio a {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
+    font-family: Helvetica, Sans-Serif;
 }
 
 #inicio a:hover {
@@ -528,14 +487,45 @@ footer #coluna2 {
     margin-bottom: 20px;
 }
 
-/* coluna 3 */
-#coluna3 p {
-    margin: 8px 0;
+#lista_footer img{
+   width: 24.99px;
+   height: 24.99px;
 }
 
-#coluna3 a {
-    display: block; /* cada link em linha separada */
-    color: white;
-    text-decoration: none;
-    margin-top: 5px;
+#p_footer{
+    padding-top: 15px;
 }
+
+
+#coluna3 {
+    padding-top: 34px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    gap: 50px;
+}
+
+
+#coluna3_1 p{
+  padding: 10px 0;
+  margin: 0;
+  white-space: nowrap;  
+}
+
+#coluna3_1 a,
+#coluna3_2 a {
+    display: block;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+#coluna3_2 {
+    margin-top: 20px;
+}
+
+
